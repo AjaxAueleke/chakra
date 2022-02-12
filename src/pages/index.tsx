@@ -1,5 +1,10 @@
-import Register from "./register";
+import { NavBar } from "../components/NavBar";
 
-const Index = () => (<div>Sheesh!</div>)
+const Index = () => (
+  <>
+    <NavBar />
+    <div>Sheesh!</div>
+  </>
+);
 
-export default Index
+export default Index;
